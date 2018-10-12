@@ -1,0 +1,24 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "REST API for Workflow.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ./src/server/index.js"
+  },
+  "keywords": [
+    "koa",
+    "async",
+    "workflow",
+    "rest"
+  ],
+  "author": "whipjack <robderr@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "koa": "^2.5.3"
+  }
+}
