@@ -1,4 +1,7 @@
 module.exports = index;
 
 
-function index(){console.log("jest fails due to no return");}
+function index(callback){
+	console.log("jest fails due to no return")
+	callback()
+}
